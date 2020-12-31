@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "test": "tap --reporter=list --watch",
+    "test": "tap --reporter=list --watch test.js",
     "test-jest": "jest --watch app.test.js"
   },
   "dependencies": {
